@@ -69,8 +69,10 @@
 
 	  <section>
 	    <h2>Companies</h2>
-	    <img width="500" height="171" src="img/google.png" alt="Google">
-	    <img width="174" height="217" src="img/apple.png" alt="Apple">
+	    <!-- <img width="500" height="171" src="img/google.png" alt="Google"> -->
+	    <!-- <img width="174" height="217" src="img/apple.png" alt="Apple"> -->
+	    <img src="img/apple-google.jpg" alt="Apple vs. Google">
+	    
 	  </section>
 
 	  <section>
@@ -145,6 +147,11 @@
 	</section>
 
 	<section>
+	  <h1>Building an App</h1>
+	  <img src="img/buildercat.jpg" alt="Cat">
+	</section>
+
+	<section>
 	  <h2>Requirements</h2>
 	  <ul>
 	    <li>Windows, Mac, or Linux</li>
@@ -154,9 +161,112 @@
 	    <li><a href="http://developer.android.com/tools/sdk/eclipse-adt.html">ADT Plugin</a> for Eclipse</li>
 	    <li>An Android API (15 or above) <br />
 	      Installed through the Android SDK Manager</li>
-	    
 	  </ul>
-	</section>	
+	</section>
+
+	<section>
+	  <h2>Development Overview</h2>
+	    <a href="http://www.orangeandbronze.com/orange-orchard/wp-content/uploads/2012/04/developing_overview.png" class="image">
+	      <img height="600" src="img/devoverview.png">
+	    </a>
+	</section>
+
+	<section>
+	  <h2>Organization</h2>
+	  <ul><li>Intent
+	      <ul><li>Activity
+		  <ul><li>ViewGroup
+		      <ul><li>View
+		      </li></ul>
+		  </li></ul>
+	      </li></ul>
+	  </li></ul>
+	</section>
+
+	<section>
+	  <h2>Intents</h2>
+	    <a href="http://droidtuts.wordpress.com/2012/01/23/intent-menjalankan-activity-dari-activity-lain/" class="image">
+	      <img width="600" src="img/intent.png">
+	    </a> <br />
+	      <p>Sends messages between activities, and selects the
+	      appropriate activity</p>
+	</section>
+
+	<section>
+	  <h2>Activity</h2>
+	  <a href="http://www.androidjavadoc.com/1.0_r1_src/android/app/Activity.html" class="image">
+	    <img height="600" src="img/activity.png">
+	  </a>
+	</section>
+
+	<section>
+	  <section>
+	    <h2>View and ViewGroup</h2>
+	    <a href="http://jayxie.com/mirrors/android-sdk/guide/topics/ui/index.html" class="image">
+	      <img height="400" src="img/views.png">
+	    </a>
+	  </section>
+
+	  <section>
+	    <h2>View</h2>
+	    <p>Interactive controls that appear in an app</p>
+	    <br />
+	    <p>Types of Views</p>
+	    <ul>
+	      <li>TextView</li>
+	      <li>EditText</li>
+	      <li>Button</li>
+	      <li>CheckBox</li>
+	      <li>RadioButton</li>
+	    </ul>
+	  <aside class="notes">
+	    http://www.adakoda.com/adakoda/2010/01/20/ASPH_AW_REV1.pdf
+	  </aside>
+	  </section>
+
+	  <section>
+	    <h2>ViewGroup</h2>
+	    <p>Collection of Views, which handle the layout of
+	    controls in an activity</p>
+	    <br />
+	    <p>Types of ViewGroups:</p>
+	    <ul>
+	      <li>AbsoluteLayout</li>
+	      <li>FrameLayout</li>
+	      <li>LinearLayout</li>
+	      <li>RelativeLayout</li>
+	      <li>TableLayout</li>
+	    </ul>
+	  </section>
+
+	  <section>
+	    <h2>View and ViewGroup</h2>
+	    <a href="http://jayxie.com/mirrors/android-sdk/guide/topics/ui/declaring-layout.html" class="image">
+	      <img height="400" src="img/layout.png">
+	    </a>
+	  </section>
+	</section>
+
+	<section>
+	  <h2>Files</h2>
+	  <ul>
+	    <li><code>AndroidManifest.xml</code>: <span style="color:#AAA">Registers
+	    Activities</span></li>
+	    <li><code>BuildConfig.java</code>: <span style="color:#AAA">Global
+	    variables which control how the project is built</span></li>
+	    <li><code>R.java</code>: <span style="color:#AAA">Maps
+	    unique numbers to named constants</span></li>
+	    <li><code>MainActivity.java</code>: <span style="color:#AAA">Code
+	    for activity <br />(name varies)</span></li>
+	    <li><code>activity_main.xml</code>: <span style="color:#AAA">xml
+	    description of layout <br />(name varies)</span></li>
+	  </ul>
+	</section>
+
+	<section>
+	  <h1>Hands-On</h1>
+	  <img src="img/macbookcat.jpg" alt="Cat">
+	</section>
 
       </div>
 
